@@ -7,3 +7,5 @@ D:\vsproje\wrixtra\wrixtra\obj\Debug\wrixtra.Properties.Resources.resources
 D:\vsproje\wrixtra\wrixtra\obj\Debug\wrixtra.csproj.GenerateResource.Cache
 D:\vsproje\wrixtra\wrixtra\obj\Debug\wrixtra.exe
 D:\vsproje\wrixtra\wrixtra\obj\Debug\wrixtra.pdb
+D:\vsproje\wrixtra\wrixtra\obj\Debug\wrixtra.Form3.resources
+D:\vsproje\wrixtra\wrixtra\obj\Debug\wrixtra.Form4.resources

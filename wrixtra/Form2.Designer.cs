@@ -117,23 +117,18 @@
             this.phpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.şablonToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.echoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ifToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.ifToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
-            this.elseifToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.elseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.javascriptToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.scriptToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.alertToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ekstraToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.görünmezModToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.açToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.kapatToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.karakterSayısıToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.projelerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.sayfalarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.kısaSayfaOluşturToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.süreTutanSayfaOluşturToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.saveFileDialog1 = new System.Windows.Forms.SaveFileDialog();
+            this.scriptToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.alertToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ifToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.ifToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
+            this.elseifToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.elseToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -161,8 +156,7 @@
             this.ayarlarToolStripMenuItem,
             this.yardımToolStripMenuItem,
             this.kodlamaToolStripMenuItem,
-            this.ekstraToolStripMenuItem,
-            this.projelerToolStripMenuItem});
+            this.ekstraToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(1119, 24);
@@ -205,7 +199,7 @@
             // 
             this.dosyaAçToolStripMenuItem.Image = global::wrixtra.Properties.Resources.Actions_file_open_icon;
             this.dosyaAçToolStripMenuItem.Name = "dosyaAçToolStripMenuItem";
-            this.dosyaAçToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.dosyaAçToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
             this.dosyaAçToolStripMenuItem.Text = "Dosya Aç";
             this.dosyaAçToolStripMenuItem.Click += new System.EventHandler(this.dosyaAçToolStripMenuItem_Click);
             // 
@@ -213,7 +207,7 @@
             // 
             this.dosyaKaydetToolStripMenuItem.Image = global::wrixtra.Properties.Resources.Actions_document_save_icon;
             this.dosyaKaydetToolStripMenuItem.Name = "dosyaKaydetToolStripMenuItem";
-            this.dosyaKaydetToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.dosyaKaydetToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
             this.dosyaKaydetToolStripMenuItem.Text = "Dosya Kaydet";
             this.dosyaKaydetToolStripMenuItem.Click += new System.EventHandler(this.dosyaKaydetToolStripMenuItem_Click);
             // 
@@ -221,7 +215,7 @@
             // 
             this.yeniDosyaToolStripMenuItem.Image = global::wrixtra.Properties.Resources.Actions_appointment_new_icon;
             this.yeniDosyaToolStripMenuItem.Name = "yeniDosyaToolStripMenuItem";
-            this.yeniDosyaToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.yeniDosyaToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
             this.yeniDosyaToolStripMenuItem.Text = "Yeni Dosya";
             this.yeniDosyaToolStripMenuItem.Click += new System.EventHandler(this.yeniDosyaToolStripMenuItem_Click_1);
             // 
@@ -229,7 +223,7 @@
             // 
             this.temizleToolStripMenuItem1.Image = global::wrixtra.Properties.Resources.Actions_edit_clear_icon;
             this.temizleToolStripMenuItem1.Name = "temizleToolStripMenuItem1";
-            this.temizleToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.temizleToolStripMenuItem1.Size = new System.Drawing.Size(145, 22);
             this.temizleToolStripMenuItem1.Text = "Temizle";
             this.temizleToolStripMenuItem1.Click += new System.EventHandler(this.temizleToolStripMenuItem1_Click);
             // 
@@ -237,7 +231,7 @@
             // 
             this.çıkışToolStripMenuItem.Image = global::wrixtra.Properties.Resources.Actions_session_exit_icon;
             this.çıkışToolStripMenuItem.Name = "çıkışToolStripMenuItem";
-            this.çıkışToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.çıkışToolStripMenuItem.Size = new System.Drawing.Size(145, 22);
             this.çıkışToolStripMenuItem.Text = "Çıkış Alt+F4";
             this.çıkışToolStripMenuItem.Click += new System.EventHandler(this.çıkışToolStripMenuItem_Click_1);
             // 
@@ -711,7 +705,7 @@
             this.brToolStripMenuItem});
             this.htmlToolStripMenuItem.Image = global::wrixtra.Properties.Resources.html_5_icon;
             this.htmlToolStripMenuItem.Name = "htmlToolStripMenuItem";
-            this.htmlToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.htmlToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.htmlToolStripMenuItem.Text = "Html";
             // 
             // testToolStripMenuItem
@@ -793,42 +787,42 @@
             // h1ToolStripMenuItem
             // 
             this.h1ToolStripMenuItem.Name = "h1ToolStripMenuItem";
-            this.h1ToolStripMenuItem.Size = new System.Drawing.Size(87, 22);
+            this.h1ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.h1ToolStripMenuItem.Text = "h1";
             this.h1ToolStripMenuItem.Click += new System.EventHandler(this.h1ToolStripMenuItem_Click);
             // 
             // h2ToolStripMenuItem
             // 
             this.h2ToolStripMenuItem.Name = "h2ToolStripMenuItem";
-            this.h2ToolStripMenuItem.Size = new System.Drawing.Size(87, 22);
+            this.h2ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.h2ToolStripMenuItem.Text = "h2";
             this.h2ToolStripMenuItem.Click += new System.EventHandler(this.h2ToolStripMenuItem_Click);
             // 
             // h3ToolStripMenuItem
             // 
             this.h3ToolStripMenuItem.Name = "h3ToolStripMenuItem";
-            this.h3ToolStripMenuItem.Size = new System.Drawing.Size(87, 22);
+            this.h3ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.h3ToolStripMenuItem.Text = "h3";
             this.h3ToolStripMenuItem.Click += new System.EventHandler(this.h3ToolStripMenuItem_Click);
             // 
             // h4ToolStripMenuItem
             // 
             this.h4ToolStripMenuItem.Name = "h4ToolStripMenuItem";
-            this.h4ToolStripMenuItem.Size = new System.Drawing.Size(87, 22);
+            this.h4ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.h4ToolStripMenuItem.Text = "h4";
             this.h4ToolStripMenuItem.Click += new System.EventHandler(this.h4ToolStripMenuItem_Click);
             // 
             // h5ToolStripMenuItem
             // 
             this.h5ToolStripMenuItem.Name = "h5ToolStripMenuItem";
-            this.h5ToolStripMenuItem.Size = new System.Drawing.Size(87, 22);
+            this.h5ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.h5ToolStripMenuItem.Text = "h5";
             this.h5ToolStripMenuItem.Click += new System.EventHandler(this.h5ToolStripMenuItem_Click);
             // 
             // h6ToolStripMenuItem
             // 
             this.h6ToolStripMenuItem.Name = "h6ToolStripMenuItem";
-            this.h6ToolStripMenuItem.Size = new System.Drawing.Size(87, 22);
+            this.h6ToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.h6ToolStripMenuItem.Text = "h6";
             this.h6ToolStripMenuItem.Click += new System.EventHandler(this.h6ToolStripMenuItem_Click);
             // 
@@ -854,54 +848,22 @@
             this.ifToolStripMenuItem});
             this.phpToolStripMenuItem.Image = global::wrixtra.Properties.Resources.github_bartzaalberg_php_tester_icon;
             this.phpToolStripMenuItem.Name = "phpToolStripMenuItem";
-            this.phpToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.phpToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.phpToolStripMenuItem.Text = "Php";
             // 
             // şablonToolStripMenuItem
             // 
             this.şablonToolStripMenuItem.Name = "şablonToolStripMenuItem";
-            this.şablonToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.şablonToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.şablonToolStripMenuItem.Text = "Şablon";
             this.şablonToolStripMenuItem.Click += new System.EventHandler(this.şablonToolStripMenuItem_Click);
             // 
             // echoToolStripMenuItem
             // 
             this.echoToolStripMenuItem.Name = "echoToolStripMenuItem";
-            this.echoToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
+            this.echoToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.echoToolStripMenuItem.Text = "echo";
             this.echoToolStripMenuItem.Click += new System.EventHandler(this.echoToolStripMenuItem_Click);
-            // 
-            // ifToolStripMenuItem
-            // 
-            this.ifToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.ifToolStripMenuItem1,
-            this.elseifToolStripMenuItem,
-            this.elseToolStripMenuItem});
-            this.ifToolStripMenuItem.Name = "ifToolStripMenuItem";
-            this.ifToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
-            this.ifToolStripMenuItem.Text = "Koşul İfadeleri";
-            this.ifToolStripMenuItem.Click += new System.EventHandler(this.ifToolStripMenuItem_Click);
-            // 
-            // ifToolStripMenuItem1
-            // 
-            this.ifToolStripMenuItem1.Name = "ifToolStripMenuItem1";
-            this.ifToolStripMenuItem1.Size = new System.Drawing.Size(101, 22);
-            this.ifToolStripMenuItem1.Text = "if";
-            this.ifToolStripMenuItem1.Click += new System.EventHandler(this.ifToolStripMenuItem1_Click);
-            // 
-            // elseifToolStripMenuItem
-            // 
-            this.elseifToolStripMenuItem.Name = "elseifToolStripMenuItem";
-            this.elseifToolStripMenuItem.Size = new System.Drawing.Size(101, 22);
-            this.elseifToolStripMenuItem.Text = "elseif";
-            this.elseifToolStripMenuItem.Click += new System.EventHandler(this.elseifToolStripMenuItem_Click);
-            // 
-            // elseToolStripMenuItem
-            // 
-            this.elseToolStripMenuItem.Name = "elseToolStripMenuItem";
-            this.elseToolStripMenuItem.Size = new System.Drawing.Size(101, 22);
-            this.elseToolStripMenuItem.Text = "else";
-            this.elseToolStripMenuItem.Click += new System.EventHandler(this.elseToolStripMenuItem_Click);
             // 
             // javascriptToolStripMenuItem
             // 
@@ -910,22 +872,8 @@
             this.alertToolStripMenuItem});
             this.javascriptToolStripMenuItem.Image = global::wrixtra.Properties.Resources.app_x_javascript_icon;
             this.javascriptToolStripMenuItem.Name = "javascriptToolStripMenuItem";
-            this.javascriptToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.javascriptToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.javascriptToolStripMenuItem.Text = "Javascript";
-            // 
-            // scriptToolStripMenuItem
-            // 
-            this.scriptToolStripMenuItem.Name = "scriptToolStripMenuItem";
-            this.scriptToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
-            this.scriptToolStripMenuItem.Text = "script";
-            this.scriptToolStripMenuItem.Click += new System.EventHandler(this.scriptToolStripMenuItem_Click);
-            // 
-            // alertToolStripMenuItem
-            // 
-            this.alertToolStripMenuItem.Name = "alertToolStripMenuItem";
-            this.alertToolStripMenuItem.Size = new System.Drawing.Size(103, 22);
-            this.alertToolStripMenuItem.Text = "alert";
-            this.alertToolStripMenuItem.Click += new System.EventHandler(this.alertToolStripMenuItem_Click);
             // 
             // ekstraToolStripMenuItem
             // 
@@ -969,38 +917,51 @@
             this.karakterSayısıToolStripMenuItem.Text = "Karakter Sayısı";
             this.karakterSayısıToolStripMenuItem.Click += new System.EventHandler(this.karakterSayısıToolStripMenuItem_Click);
             // 
-            // projelerToolStripMenuItem
+            // scriptToolStripMenuItem
             // 
-            this.projelerToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.sayfalarToolStripMenuItem});
-            this.projelerToolStripMenuItem.Image = global::wrixtra.Properties.Resources.ad_page_folded_icon;
-            this.projelerToolStripMenuItem.Name = "projelerToolStripMenuItem";
-            this.projelerToolStripMenuItem.Size = new System.Drawing.Size(75, 20);
-            this.projelerToolStripMenuItem.Text = "Projeler";
+            this.scriptToolStripMenuItem.Name = "scriptToolStripMenuItem";
+            this.scriptToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.scriptToolStripMenuItem.Text = "script";
+            this.scriptToolStripMenuItem.Click += new System.EventHandler(this.scriptToolStripMenuItem_Click);
             // 
-            // sayfalarToolStripMenuItem
+            // alertToolStripMenuItem
             // 
-            this.sayfalarToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.kısaSayfaOluşturToolStripMenuItem,
-            this.süreTutanSayfaOluşturToolStripMenuItem});
-            this.sayfalarToolStripMenuItem.Image = global::wrixtra.Properties.Resources.File_icon;
-            this.sayfalarToolStripMenuItem.Name = "sayfalarToolStripMenuItem";
-            this.sayfalarToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
-            this.sayfalarToolStripMenuItem.Text = "Sayfalar";
+            this.alertToolStripMenuItem.Name = "alertToolStripMenuItem";
+            this.alertToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.alertToolStripMenuItem.Text = "alert";
+            this.alertToolStripMenuItem.Click += new System.EventHandler(this.alertToolStripMenuItem_Click);
             // 
-            // kısaSayfaOluşturToolStripMenuItem
+            // ifToolStripMenuItem
             // 
-            this.kısaSayfaOluşturToolStripMenuItem.Name = "kısaSayfaOluşturToolStripMenuItem";
-            this.kısaSayfaOluşturToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
-            this.kısaSayfaOluşturToolStripMenuItem.Text = "Kısa sayfa oluştur";
-            this.kısaSayfaOluşturToolStripMenuItem.Click += new System.EventHandler(this.kısaSayfaOluşturToolStripMenuItem_Click);
+            this.ifToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.ifToolStripMenuItem1,
+            this.elseifToolStripMenuItem,
+            this.elseToolStripMenuItem});
+            this.ifToolStripMenuItem.Name = "ifToolStripMenuItem";
+            this.ifToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.ifToolStripMenuItem.Text = "Koşul İfadeleri";
+            this.ifToolStripMenuItem.Click += new System.EventHandler(this.ifToolStripMenuItem_Click);
             // 
-            // süreTutanSayfaOluşturToolStripMenuItem
+            // ifToolStripMenuItem1
             // 
-            this.süreTutanSayfaOluşturToolStripMenuItem.Name = "süreTutanSayfaOluşturToolStripMenuItem";
-            this.süreTutanSayfaOluşturToolStripMenuItem.Size = new System.Drawing.Size(198, 22);
-            this.süreTutanSayfaOluşturToolStripMenuItem.Text = "Süre tutan sayfa oluştur";
-            this.süreTutanSayfaOluşturToolStripMenuItem.Click += new System.EventHandler(this.süreTutanSayfaOluşturToolStripMenuItem_Click);
+            this.ifToolStripMenuItem1.Name = "ifToolStripMenuItem1";
+            this.ifToolStripMenuItem1.Size = new System.Drawing.Size(152, 22);
+            this.ifToolStripMenuItem1.Text = "if";
+            this.ifToolStripMenuItem1.Click += new System.EventHandler(this.ifToolStripMenuItem1_Click);
+            // 
+            // elseifToolStripMenuItem
+            // 
+            this.elseifToolStripMenuItem.Name = "elseifToolStripMenuItem";
+            this.elseifToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.elseifToolStripMenuItem.Text = "elseif";
+            this.elseifToolStripMenuItem.Click += new System.EventHandler(this.elseifToolStripMenuItem_Click);
+            // 
+            // elseToolStripMenuItem
+            // 
+            this.elseToolStripMenuItem.Name = "elseToolStripMenuItem";
+            this.elseToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
+            this.elseToolStripMenuItem.Text = "else";
+            this.elseToolStripMenuItem.Click += new System.EventHandler(this.elseToolStripMenuItem_Click);
             // 
             // wrixtra
             // 
@@ -1127,11 +1088,6 @@
         private System.Windows.Forms.ToolStripMenuItem ifToolStripMenuItem1;
         private System.Windows.Forms.ToolStripMenuItem elseifToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem elseToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem projelerToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem sayfalarToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem kısaSayfaOluşturToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem süreTutanSayfaOluşturToolStripMenuItem;
-        private System.Windows.Forms.SaveFileDialog saveFileDialog1;
     }
 }
 

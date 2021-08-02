@@ -21,6 +21,7 @@ namespace wrixtra
         {
             InitializeComponent();
             UTF8Encoding utf8 = new UTF8Encoding();
+            
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -215,7 +216,6 @@ namespace wrixtra
                 System.IO.StreamReader sr = new System.IO.StreamReader(ofd.FileName);
                 richTextBox1.Text = sr.ReadToEnd();
                 label2.Text = ofd.FileName;
-               
                 sr.Close();
             }
         }
@@ -259,7 +259,6 @@ namespace wrixtra
             {
                 System.IO.StreamWriter sw = new System.IO.StreamWriter(svf.FileName);
                 sw.Write(richTextBox1.Text);
-                
                 sw.Close();
             }
         }
@@ -292,7 +291,6 @@ namespace wrixtra
         private void karakterSayısıToolStripMenuItem_Click(object sender, EventArgs e)
         {
             MessageBox.Show(richTextBox1.TextLength.ToString(), "Karakter Sayısı");
-            
         }
 
         private void yapıştırToolStripMenuItem_Click(object sender, EventArgs e)
@@ -535,24 +533,6 @@ namespace wrixtra
         private void elseToolStripMenuItem_Click(object sender, EventArgs e)
         {
             richTextBox1.Text = richTextBox1.Text += "else {\n}";
-        }
-
-        private void kısaSayfaOluşturToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form3 sayfa3 = new Form3();
-            sayfa3.Show();
-        }
-
-        private void zamanToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-           
-           
-        }
-
-        private void süreTutanSayfaOluşturToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Form4 sayfa4 = new Form4();
-            sayfa4.Show();
         }
 
     }

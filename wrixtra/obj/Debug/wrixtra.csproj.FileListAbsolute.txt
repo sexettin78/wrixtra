@@ -1,0 +1,9 @@
+D:\vsproje\wrixtra\wrixtra\bin\Debug\wrixtra.exe.config
+D:\vsproje\wrixtra\wrixtra\bin\Debug\wrixtra.exe
+D:\vsproje\wrixtra\wrixtra\bin\Debug\wrixtra.pdb
+D:\vsproje\wrixtra\wrixtra\obj\Debug\wrixtra.csprojResolveAssemblyReference.cache
+D:\vsproje\wrixtra\wrixtra\obj\Debug\wrixtra.wrixtra.resources
+D:\vsproje\wrixtra\wrixtra\obj\Debug\wrixtra.Properties.Resources.resources
+D:\vsproje\wrixtra\wrixtra\obj\Debug\wrixtra.csproj.GenerateResource.Cache
+D:\vsproje\wrixtra\wrixtra\obj\Debug\wrixtra.exe
+D:\vsproje\wrixtra\wrixtra\obj\Debug\wrixtra.pdb

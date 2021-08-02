@@ -133,6 +133,36 @@ namespace wrixtra.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ad_page_folded_icon {
+            get {
+                object obj = ResourceManager.GetObject("ad-page-folded-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap app_x_javascript_icon {
+            get {
+                object obj = ResourceManager.GetObject("app-x-javascript-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Apps_preferences_system_time_icon {
+            get {
+                object obj = ResourceManager.GetObject("Apps-preferences-system-time-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Cat_icon {
             get {
                 object obj = ResourceManager.GetObject("Cat-icon", resourceCulture);
@@ -156,6 +186,16 @@ namespace wrixtra.Properties {
         internal static System.Drawing.Bitmap Cursor_Select_icon {
             get {
                 object obj = ResourceManager.GetObject("Cursor-Select-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap dev_icon {
+            get {
+                object obj = ResourceManager.GetObject("dev-icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -206,6 +246,26 @@ namespace wrixtra.Properties {
         internal static System.Drawing.Bitmap ghost_2_icon {
             get {
                 object obj = ResourceManager.GetObject("ghost-2-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap github_bartzaalberg_php_tester_icon {
+            get {
+                object obj = ResourceManager.GetObject("github-bartzaalberg-php-tester-icon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap html_5_icon {
+            get {
+                object obj = ResourceManager.GetObject("html-5-icon", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
